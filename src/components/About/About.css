@@ -1,0 +1,37 @@
+.about {
+  background-color: var(--color-white);
+}
+.about__text {
+  max-width: 90%;
+}
+
+.about__text p {
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 20rem;
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    margin-top: 15rem;
+  }
+  .about__text {
+    max-width: 100%;
+  }
+  .about__text p {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .about {
+      margin-top: 30rem;
+    }
+    .about__text {
+      max-width: 100%;
+    }
+    .about__text p {
+      margin: 0;
+    }
+  }
+  
